@@ -81,7 +81,6 @@ with st.expander("📎 Notas técnicas (importante)", expanded=False):
         """
 - **Definición de °Brix**: % en masa de sacarosa en solución. Si la solución es sólo agua+sacarosa, °Brix = 100·(masa de azúcar / masa total).
 - **Contracción de volumen**: al disolver azúcar, el volumen final **no** es la suma de volúmenes. Se modela usando el **volumen específico parcial** de la sacarosa en agua (0.632 mL/g, ~20–25 °C) y la densidad del agua a 20 °C (0.9982 g/mL).
-- **Ratios**: se interpretan como **azúcar:agua por masa** para asegurar exactitud. Si querés variantes por volumen, agregamos un modo aparte (con advertencias) en una versión futura.
 - **Temperatura**: los cálculos están referidos a 20 °C. Cambios modestos de temperatura introducen errores menores en uso habitual.
         """
     )
